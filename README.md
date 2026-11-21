@@ -22,7 +22,7 @@
 
 <p align="center">
   <img src="docs/screenshots/opened.png" width="230" alt="Packs and boxes" />
-  <img src="docs/screenshots/sold.png" width="230" alt="Sold cards" />
+  <img src="docs/screenshots/history.png" width="230" alt="History" />
 </p>
 
 ## Features

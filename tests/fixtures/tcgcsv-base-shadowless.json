@@ -1,0 +1,93 @@
+{
+"products": [
+{
+"productId": 106999,
+"name": "Charizard",
+"extendedData": [
+{
+"name": "Number",
+"displayName": "Card Number",
+"value": "004/102"
+}
+]
+},
+{
+"productId": 107002,
+"name": "Hitmonchan",
+"extendedData": [
+{
+"name": "Number",
+"displayName": "Card Number",
+"value": "007/102"
+}
+]
+},
+{
+"productId": 107021,
+"name": "Charmeleon",
+"extendedData": [
+{
+"name": "Number",
+"displayName": "Card Number",
+"value": "024/102"
+}
+]
+}
+],
+"prices": [
+{
+"productId": 106999,
+"lowPrice": 100000.0,
+"midPrice": 100000.0,
+"highPrice": 100000.0,
+"marketPrice": null,
+"directLowPrice": null,
+"subTypeName": "1st Edition Holofoil"
+},
+{
+"productId": 106999,
+"lowPrice": 3187.0,
+"midPrice": 5750.0,
+"highPrice": 10000.0,
+"marketPrice": 2172.24,
+"directLowPrice": null,
+"subTypeName": "Unlimited Holofoil"
+},
+{
+"productId": 107002,
+"lowPrice": 331.99,
+"midPrice": 331.99,
+"highPrice": 331.99,
+"marketPrice": 225.0,
+"directLowPrice": null,
+"subTypeName": "1st Edition Holofoil"
+},
+{
+"productId": 107002,
+"lowPrice": 30.0,
+"midPrice": 91.29,
+"highPrice": 919.68,
+"marketPrice": 103.74,
+"directLowPrice": 54.95,
+"subTypeName": "Unlimited Holofoil"
+},
+{
+"productId": 107021,
+"lowPrice": 102.46,
+"midPrice": 205.19,
+"highPrice": 1222.72,
+"marketPrice": 132.54,
+"directLowPrice": null,
+"subTypeName": "1st Edition"
+},
+{
+"productId": 107021,
+"lowPrice": 2.88,
+"midPrice": 18.2,
+"highPrice": 145.49,
+"marketPrice": 20.53,
+"directLowPrice": 21.28,
+"subTypeName": "Unlimited"
+}
+]
+}

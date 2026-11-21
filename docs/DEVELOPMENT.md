@@ -6,7 +6,7 @@ so shared fixes can be cherry-picked. Decisions: [DECISIONS.md](DECISIONS.md).
 
 ## Status
 
-**1.0.4** (Nov 21, 2026), public repo bmead92/living-dex since 1.0.4, starting from a fresh history; development
+**1.0.5** (Nov 21, 2026; History shows cards not in a pack again), public repo bmead92/living-dex since 1.0.4, starting from a fresh history; development
 history and releases 0.1.0–1.0.4 are in the private repo bmead92/living-dex-prerelease (local branch `pre-1.0`).
 Local folder still `holo-collector`. Package `dev.holocollector.app` is kept from the first name: never change it,
 that would wipe users' collections. Installs next to MTG Collector. Backups: Downloads › Living Dex (old Holo

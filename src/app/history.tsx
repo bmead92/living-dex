@@ -17,7 +17,7 @@ import { finishShort, frontName, shortPrinting } from '../lib/cards';
 import { toEntry, usualProducts } from '../lib/setList';
 import { openBoxes, type Source } from '../lib/sources';
 import { sourceForTarget, type SaveTarget } from '../lib/stack';
-import { sessionsOf } from '../lib/unsorted';
+import { historyRows, sessionsOf } from '../lib/unsorted';
 
 const when = (iso: string) =>
   new Date(iso).toLocaleString(undefined, { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
@@ -54,7 +54,7 @@ export default function HistoryScreen() {
 
   const sections = useMemo(
     () =>
-      sessionsOf((rows ?? []).filter((r) => r.source_id !== target && (show === 'all' || r.source_id == null))).map((s) => ({
+      sessionsOf(historyRows(rows ?? [], show, target)).map((s) => ({
         key: s.start,
         title: when(s.start),
         data: s.rows,
